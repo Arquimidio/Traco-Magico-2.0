@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background: rgb(32, 32, 32);
+}
+
+#grid-container{
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+    box-shadow: 2px -5px 15px rgba(0, 0, 0, 0.384);
+    position: relative;
+    z-index: 1;
+}
+
+.grid-row{
+    display: flex;
+}
+
+.grid-square{
+    width: 16px;
+    height: 16px;
+}
+
+.config-area{
+    padding: 10px;
+    display: flex;
+    background: rgb(65, 62, 62);
+    justify-content: space-between;
+    width: 480px;
+    top: -10px;
+    z-index: 0;
+    border-radius: 0px 0px 20px 20px;
+    position: relative;
+    box-shadow: 5px 0px 15px rgba(0, 0, 0, 0.479);
+}
+
+.config-area *{
+    margin: 20px 10px 0px 10px;
+    cursor: pointer;
+}
+
+
+input[type="color"] {
+	opacity: 0.0;
+	display: block;
+	width: 32px;
+	height: 32px;
+	border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#picker-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    border-radius: 50%;
+    transition: all 0.4s;
+    box-shadow: 3px 1px 5px rgba(0, 0, 0, 0.26);
+}
+
+#picker-wrapper:hover{
+    transform: scale(1.2);
+}
+
+#range-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#range-div *{
+    margin: 0px;
+}
+
+#squares-range{
+    margin-top: 5px;
+}
+
+#range-info{
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.mode-switcher{
+    width: 30px;
+    height: 10px;
+    border-radius: 20px;
+    background: red;
+    position: relative;
+    top: 10px;
+    z-index: 0;
+    transition: all 0.2s;
+}
+
+.mode-switcher:before{
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+
+#active:before{
+    left: 10px;
+}
+
+#active{
+    background-color: rgb(19, 170, 19);
+}
+
+i{
+    font-size: 1.5rem;
+    color: white;
+    transition: all 0.4s;
+    border-radius: 50%;
+    position: relative;
+}
+
+i:hover{
+    text-shadow: 1px 0px 15px rgba(255, 255, 255, 0.253);
+}
+
+
+#rainbow{
+    color: grey;
+    transition: all 1s;
+}
+
+#reset{
+    color: red;
+}
+
+.toggled{
+    background: linear-gradient(0deg,#6a0794, #4B0082, 	
+    #070792, #079c07, #e0e002,#FF7F00, #FF0000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 1s;
+}

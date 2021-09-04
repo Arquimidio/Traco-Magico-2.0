@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="grid"></div>
+    <div class="config-area">
+        <div id="picker-wrapper">
+            <input type="color" id="color-selector" value="#purple">
+        </div>
+        <div id="range-div">
+            <input type="range" min="1" max="100" value="16" id="squares-range">
+            <p id="range-info">16 X 16</p>
+        </div>
+        <div class="mode-switcher"></div>
+        <i class="fas fa-eraser" id="eraser"></i>
+        <i class="fas fa-fill-drip" id="bucket"></i>
+        <i data='true' class="fas fa-rainbow" id="rainbow"></i>
+        <i class="fas fa-times" id="reset"></i>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
