@@ -6,13 +6,13 @@
 
 - O objetivo desse projeto foi aprimorar minhas habilidades em JavaScript e, simultaneamente, revisar conteúdos de HTML e CSS, objetivo este que foi atingido, vez que relembrei muito do que foi estudado, coloquei em prática conceitos aprendidos recentemente (event listeners e manipulação da DOM) e aprendi novas formas de lidar com alguns problemas de CSS (por exemplo a customização do ícone do "color picker")
 
-##Tecnologias
+#Tecnologias
 
 - HTML
 - CSS
 - JavaScript
 
-##Adições futuras
+#Adições futuras
 
 - Esse projeto possui potencial para receber diversos aprimoramentos. Dentre eles:
 
@@ -21,5 +21,6 @@
 3. Paletas de cores personalizadas
 4. Ferramenta de preenchimento de linha
 5. Alteração de opacidade das cores
-6. Instruções de uso
+6. Melhorias na ferramenta de randomização de cores e no modo de desenho descontínuo
+7. Instruções de uso
 
