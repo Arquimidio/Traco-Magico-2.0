@@ -6,13 +6,13 @@
 
 - O objetivo desse projeto foi aprimorar minhas habilidades em JavaScript e, simultaneamente, revisar conteúdos de HTML e CSS, objetivo este que foi atingido, vez que relembrei muito do que foi estudado, coloquei em prática conceitos aprendidos recentemente (event listeners e manipulação da DOM) e aprendi novas formas de lidar com alguns problemas de CSS (por exemplo a customização do ícone do "color picker")
 
-#Tecnologias
+## Tecnologias
 
 - HTML
 - CSS
 - JavaScript
 
-#Adições futuras
+## Adições futuras
 
 - Esse projeto possui potencial para receber diversos aprimoramentos. Dentre eles:
 
