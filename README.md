@@ -22,5 +22,6 @@
 4. Ferramenta de preenchimento de linha
 5. Alteração de opacidade das cores
 6. Melhorias na ferramenta de randomização de cores e no modo de desenho descontínuo
-7. Instruções de uso
+7. Alteração da cor do ícone do balde de tinta quando houver mudança da cor do color picker
+8. Instruções de uso
 
