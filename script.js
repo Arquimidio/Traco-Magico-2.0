@@ -9,6 +9,7 @@ let reset = document.getElementById('reset')
 let rainbowMode = document.getElementById('rainbow')
 let gridContainer;
 
+console.log('teste')
 function startFirstGrid(){
     let grid = document.getElementById('grid')
     gridContainer = document.createElement('div')
