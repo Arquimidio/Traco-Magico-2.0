@@ -27,6 +27,13 @@ eraser.addEventListener('click', toggleEraser)
 bucket.addEventListener('click', changeBgColor)
 reset.addEventListener('click', clearDrawing)
 rainbowMode.addEventListener('click', switchRainbow)
+window.addEventListener('load', initialize)
+
+function initialize(){
+    startFirstGrid()
+    wrapper.style.backgroundColor = document.getElementById('color-selector').value
+    createGrid(16)    
+}
 
 
 function changeColor(e){
@@ -118,6 +125,5 @@ function clearDrawing(){
     }
 }
 
-startFirstGrid()
-wrapper.style.backgroundColor = document.getElementById('color-selector').value
-createGrid(16)
+
+
